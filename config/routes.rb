@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :questions do
-    resources :answer, only: %i[create]
+    resources :answers, only: %i[create destroy]
   end
   
   # get '/questions', to: 'questions#index'
