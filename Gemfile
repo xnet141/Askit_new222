@@ -19,6 +19,7 @@ gem "jbuilder"
 
 gem 'pagy', '~> 9.3'
 gem 'draper', '~> 4.0'
+gem 'valid_email2', '~> 4.0'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
