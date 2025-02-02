@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   resources :questions do
     resources :answers, except: %i[new show]
   end
+
+  get '/users', to: 'users#new' # добавил от себя, так как при перезагрузке страницы на new выдает ошибку пути
   
   # get '/questions', to: 'questions#index'
   # get '/questions/new', to: 'questions#new'
