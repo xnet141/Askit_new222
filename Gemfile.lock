@@ -288,6 +288,9 @@ DEPENDENCIES
   pagy (~> 9.3)
   puma (>= 5.0)
   rails (~> 7.2.2, >= 7.2.2.1)
+  rubocop (~> 1.71)
+  rubocop-performance (~> 1.11)
+  rubocop-rails (~> 2.29.1)
   rubocop-rails-omakase
   sprockets-rails
   sqlite3 (>= 1.4)
