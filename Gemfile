@@ -51,7 +51,7 @@ group :development, :test do
   gem 'brakeman', require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem 'faker', '~> 2'
+  gem 'faker', '~> 3'
   gem 'rubocop-rails-omakase', require: false
   gem 'pry-rails'
 end
