@@ -22,6 +22,11 @@ gem 'jbuilder'
 gem 'draper', '~> 4.0'
 gem 'pagy', '~> 9.3'
 gem 'valid_email2', '~> 4.0'
+gem 'rubyzip', '~> 2'
+gem 'caxlsx', '~> 3.1'
+gem 'caxlsx_rails', '~> 0.6'
+gem 'rubyXL', '~> 3.4'
+gem 'activerecord-import', '~> 1.2'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -48,6 +53,7 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem 'faker', '~> 2'
   gem 'rubocop-rails-omakase', require: false
+  gem 'pry-rails'
 end
 
 group :development do

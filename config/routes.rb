@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   end
 
   namespace :admin do
-    resources :users, only: %i[index]
+    resources :users, only: %i[index create]
   end  
 
   get '/users', to: 'users#new' # добавил от себя, так как при перезагрузке страницы на new выдает ошибку пути
