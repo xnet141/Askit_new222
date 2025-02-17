@@ -21,7 +21,7 @@ gem 'jbuilder'
 
 gem 'draper', '~> 4.0'
 gem 'pagy', '~> 9.3'
-gem 'valid_email2', '~> 4.0'
+gem 'valid_email2', '~> 7.0'
 gem 'rubyzip', '~> 2'
 gem 'caxlsx', '~> 3.1'
 gem 'caxlsx_rails', '~> 0.6'
