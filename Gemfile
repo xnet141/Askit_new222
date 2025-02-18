@@ -62,7 +62,7 @@ group :development do
 
   # Highlight the fine-grained location where an error occurred [https://github.com/ruby/error_highlight]
   gem 'error_highlight', '>= 0.4.0', platforms: [:ruby]
-  gem 'rubocop', '~> 1.71', require: false
+  gem 'rubocop', '~> 1.72', require: false
   gem 'rubocop-performance', '~> 1.11', require: false
   gem 'rubocop-rails', '~> 2.29.1', require: false
 end
